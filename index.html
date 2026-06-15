@@ -13,7 +13,7 @@
   --r:10px;--rs:7px;--sh:0 1px 8px rgba(0,0,0,.06);
   --red:#c0392b;
 }
-body{font-family:"Khmer OS","Khmer OS System",Arial,sans-serif;background:var(--bg);color:var(--tx);min-height:100vh}
+body{font-family:"Khmer OS Siemreap","Khmer OS","Khmer OS System",Arial,sans-serif;background:var(--bg);color:var(--tx);min-height:100vh}
 
 .hd{background:var(--g);color:#fff;padding:22px 18px 18px;text-align:center}
 .hd-brand{font-size:11px;opacity:.65;letter-spacing:.05em;text-transform:uppercase;margin-bottom:5px}
@@ -90,6 +90,23 @@ textarea{resize:vertical;min-height:70px;line-height:1.7}
   .sr{gap:3px}.sb{padding:7px 1px;font-size:12px}
   .nav{flex-wrap:wrap}.btn{padding:9px 14px;flex:1;text-align:center}
 }
+
+/* ── PROJECT OVERVIEW ── */
+.ov-card{background:var(--cd);border:1px solid var(--bd);border-radius:var(--r);padding:18px 16px;margin-bottom:12px;box-shadow:var(--sh)}
+.ov-title{font-size:16px;font-weight:700;color:var(--g);margin-bottom:8px;text-align:center}
+.ov-sub{font-size:13px;color:var(--tm);line-height:1.8;margin-bottom:14px;text-align:center}
+.ov-img{width:100%;border-radius:var(--rs);margin:10px 0;display:block;border:1px solid var(--bd)}
+.ov-placeholder{width:100%;aspect-ratio:16/9;background:linear-gradient(135deg,#eef6f0,#d9ecdf);border:2px dashed var(--gb);border-radius:var(--rs);display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--gm);font-size:13px;margin:10px 0;text-align:center;padding:16px;gap:6px}
+.ov-placeholder .ic{font-size:30px;opacity:.5}
+.ov-caption{font-size:12px;color:var(--th);text-align:center;margin-top:-4px;margin-bottom:12px}
+.ov-feat{display:flex;align-items:flex-start;gap:9px;padding:8px 0;border-bottom:1px solid var(--bd);font-size:13px;line-height:1.6}
+.ov-feat:last-child{border-bottom:none}
+.ov-feat .fic{flex-shrink:0;width:24px;height:24px;background:var(--gl);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:13px}
+.ov-feat b{color:var(--g)}
+.ov-start{text-align:center;font-size:13px;color:var(--tm);margin-top:6px}
+.ov-section-title{font-size:14px;font-weight:700;color:var(--g);margin:14px 0 5px;padding-top:10px;border-top:1px solid var(--bd)}
+.ov-text{font-size:13px;color:var(--tx);line-height:1.85;margin-bottom:6px;text-align:justify}
+.ov-goal{background:var(--gl);border:1px solid var(--gb);border-radius:var(--rs);padding:11px 13px;font-size:13px;color:var(--g);line-height:1.7;margin-top:14px;font-weight:600}
 </style>
 </head>
 <body>
@@ -107,6 +124,36 @@ textarea{resize:vertical;min-height:70px;line-height:1.7}
      PAGE 1 — GENERAL
 ════════════════════════════ -->
 <div id="p1" class="step active">
+  <div class="ov-card">
+    <div class="ov-title">ស្គាល់ ជំនោរនាច</div>
+    <div class="ov-sub">ឧបករណ៍កសិកម្មឆ្លាតវៃដែលជួយកសិករគ្រប់គ្រងទឹក និងសុខភាពដំណាំដោយស្វ័យប្រវត្តិ</div>
+
+    <!-- IMAGE 1: Project overview -->
+    <img class="ov-img" src="overview.png" alt="Project overview">
+
+    <div class="ov-section-title">បញ្ហា</div>
+    <div class="ov-text">កសិករនៅកម្ពុជាត្រូវចំណាយពេលច្រើនម៉ោងជារៀងរាល់ថ្ងៃ ដើម្បីពិនិត្យ និងគ្រប់គ្រងទឹកនៅក្នុងស្រែចំការ។ ពេលខ្លះទឹកច្រើនពេក ឬតិចពេក ធ្វើឱ្យដំណាំខូចខាត និងបាត់បង់ប្រាក់ចំណូល។ ហើយជាមួយការប្រែប្រួលអាកាសធាតុ បញ្ហានេះកាន់តែពិបាកគ្រប់គ្រងថែមទៀត។</div>
+
+    <div class="ov-section-title">ដំណោះស្រាយរបស់យើង</div>
+    <div class="ov-text">ជំនោរនាច គឺជាឧបករណ៍ IoT ឆ្លាតវៃ ដែលធ្វើការងារទាំងនេះដោយស្វ័យប្រវត្តិជំនួសកសិករ។ វាវាស់កម្រិតទឹកគ្រប់ពេលវេលា បូមទឹកចូល ឬចេញដោយខ្លួនឯង ដើម្បីរក្សាកម្រិតទឹកឱ្យល្អបំផុតសម្រាប់ដំណាំ។ លើសពីនេះ វាមានកាមេរ៉ា និងបញ្ញាសិប្បនិមិត្ត (AI) ដែលអាចពិនិត្យសុខភាពដំណាំ និងណែនាំកសិករពេលណាត្រូវដាក់ជី។</div>
+
+    <div class="ov-section-title">លក្ខណៈពិសេសសំខាន់ៗ</div>
+    <div class="ov-feat"><div class="fic">💧</div><div><b>គ្រប់គ្រងទឹកស្វ័យប្រវត្តិ</b> — វាស់កម្រិតទឹក និងបូមទឹកចូល-ចេញដោយខ្លួនឯង</div></div>
+    <div class="ov-feat"><div class="fic">📷</div><div><b>AI ពិនិត្យដំណាំ</b> — កាមេរ៉ាវិភាគសុខភាពដំណាំ និងណែនាំជី</div></div>
+    <div class="ov-feat"><div class="fic">☀️</div><div><b>ថាមពលព្រះអាទិត្យ</b> — ដំណើរការគ្រប់ទីកន្លែង សូម្បីគ្មានអគ្គិសនី</div></div>
+    <div class="ov-feat"><div class="fic">📱</div><div><b>តាមដានពីចម្ងាយ</b> — មើលស្រែចំការតាមទូរស័ព្ទ</div></div>
+
+    <div class="ov-section-title">គំរូ (Prototype)</div>
+    <div class="ov-text">នេះជារូបគំរូនៃឧបករណ៍ ជំនោរនាច ដែលរួមមាន បន្ទះព្រះអាទិត្យ ឧបករណ៍វាស់ទឹក ម៉ាស៊ីនបូម កាមេរ៉ា និងប្រអប់អេឡិចត្រូនិក ដំឡើងលើបង្គោលនៅក្នុងស្រែ។</div>
+
+    <!-- IMAGE 2: Prototype -->
+    <img class="ov-img" src="prototype.png" alt="Prototype">
+
+    <div class="ov-goal">គោលបំណងរបស់យើង គឺជួយឱ្យកសិករសន្សំសំចៃពេលវេលា កាត់បន្ថយការខូចខាតដំណាំ និងបង្កើនទិន្នផល។</div>
+
+    <div class="ov-start">សូមឆ្លើយសំណួរខាងក្រោម ដើម្បីជួយយើងកែលម្អគម្រោងនេះ</div>
+  </div>
+
   <div class="sl">
     <div class="sl-t">ផ្នែកទី ១ — ព័ត៌មានទូទៅ</div>
     <div class="sl-s">ទំព័រ ១ នៃ ៣</div>
@@ -202,23 +249,22 @@ textarea{resize:vertical;min-height:70px;line-height:1.7}
       <div class="em" id="e-q6a">សូមជ្រើសរើសយ៉ាងហោចណាស់មួយ</div>
     </div>
     <div class="q">
-      <span class="ql">៧. តើបច្ចុប្បន្នអ្នកគ្រប់គ្រងកម្រិតទឹកដោយរបៀបណា? <span class="req">*</span></span>
+      <span class="ql">៧. តើបច្ចុប្បន្នអ្នកគ្រប់គ្រងទឹកទៅលើដំណាំដែលអ្នកបានជ្រើសរើសខាងលើ ដោយរបៀបណា? <span class="req">*</span> <span style="font-size:11px;font-weight:400;color:var(--th)">(អាចជ្រើសច្រើន)</span></span>
       <div class="opts" id="q7a">
-        <div class="opt" onclick="radio(&#39;q7a&#39;,this,&#39;ពិនិត្យ និងកែតម្រូវដោយដៃរៀងរាល់ថ្ងៃ&#39;)"><input type="radio" name="q7a"><label>ពិនិត្យ និងកែតម្រូវដោយដៃរៀងរាល់ថ្ងៃ</label></div>
-        <div class="opt" onclick="radio(&#39;q7a&#39;,this,&#39;ប្រើប្រព័ន្ធស្រោចស្រពមូលដ្ឋាន&#39;)"><input type="radio" name="q7a"><label>ប្រើប្រព័ន្ធស្រោចស្រពមូលដ្ឋាន</label></div>
-        <div class="opt" onclick="radio(&#39;q7a&#39;,this,&#39;ប្រើប្រព័ន្ធស្វ័យប្រវត្តិ&#39;)"><input type="radio" name="q7a"><label>ប្រើប្រព័ន្ធស្វ័យប្រវត្តិ</label></div>
-        <div class="opt" onclick="radio(&#39;q7a&#39;,this,&#39;ពឹងផ្អែកលើទឹកភ្លៀង&#39;)"><input type="radio" name="q7a"><label>ពឹងផ្អែកលើទឹកភ្លៀង</label></div>
+        <div class="opt" onclick="chk(this)"><input type="checkbox"><label>ត្រួតពិនិត្យ និងស្រោចទឹកជារៀងរាល់ថ្ងៃ</label></div>
+        <div class="opt" onclick="chk(this)"><input type="checkbox"><label>ត្រួតពិនិត្យ និងស្រោចទឹក ២-៣ ថ្ងៃម្តង</label></div>
+        <div class="opt" onclick="chk(this)"><input type="checkbox"><label>ប្រើប្រាស់ម៉ូទ័របូមទឹក / ម៉ូទ័រស្រោចទឹក</label></div>
+        <div class="opt" onclick="chk(this)"><input type="checkbox"><label>ពឹងទៅលើទឹកភ្លៀងទាំងស្រុង</label></div>
+        <div class="opt" onclick="chk(this)"><input type="checkbox"><label>ផ្សេងៗ</label></div>
       </div>
-      <div class="em" id="e-q7a">សូមជ្រើសរើសមួយ</div>
+      <div class="em" id="e-q7a">សូមជ្រើសរើសយ៉ាងហោចណាស់មួយ</div>
     </div>
     <div class="q">
-      <span class="ql">៨. តើអ្នកធ្លាប់ខូចខាតដំណាំដោយសារការគ្រប់គ្រងទឹកមិនបានល្អដែរឬទេ? បើបាទ/ចាស ប៉ុន្មានភាគរយ? <span class="req">*</span></span>
+      <span class="ql">៨. តើពីការគ្រប់គ្រងទឹករបស់អ្នក បានធ្វើឲ្យដំណាំរបស់អ្នកលូតលាស់ល្អទេ? <span class="req">*</span></span>
       <div class="opts" id="q8a">
-        <div class="opt" onclick="radio(&#39;q8a&#39;,this,&#39;មិនដែលបាត់បង់&#39;)"><input type="radio" name="q8a"><label>មិនដែលបាត់បង់</label></div>
-        <div class="opt" onclick="radio(&#39;q8a&#39;,this,&#39;បាត់បង់តិចជាង ១០%&#39;)"><input type="radio" name="q8a"><label>បាទ/ចាស — តិចជាង ១០%</label></div>
-        <div class="opt" onclick="radio(&#39;q8a&#39;,this,&#39;បាត់បង់ ១០–៣០%&#39;)"><input type="radio" name="q8a"><label>បាទ/ចាស — ១០–៣០%</label></div>
-        <div class="opt" onclick="radio(&#39;q8a&#39;,this,&#39;បាត់បង់ ៣០–៥០%&#39;)"><input type="radio" name="q8a"><label>បាទ/ចាស — ៣០–៥០%</label></div>
-        <div class="opt" onclick="radio(&#39;q8a&#39;,this,&#39;បាត់បង់លើស ៥០%&#39;)"><input type="radio" name="q8a"><label>បាទ/ចាស — លើស ៥០%</label></div>
+        <div class="opt" onclick="radio(&#39;q8a&#39;,this,&#39;លូតលាស់ល្អ&#39;)"><input type="radio" name="q8a"><label>លូតលាស់ល្អ</label></div>
+        <div class="opt" onclick="radio(&#39;q8a&#39;,this,&#39;លូតលាស់មធ្យម&#39;)"><input type="radio" name="q8a"><label>លូតលាស់មធ្យម</label></div>
+        <div class="opt" onclick="radio(&#39;q8a&#39;,this,&#39;លូតលាស់មិនល្អសោះ&#39;)"><input type="radio" name="q8a"><label>លូតលាស់មិនល្អសោះ</label></div>
       </div>
       <div class="em" id="e-q8a">សូមជ្រើសរើសមួយ</div>
     </div>
@@ -339,7 +385,7 @@ textarea{resize:vertical;min-height:70px;line-height:1.7}
       <span class="ql">១០. តើអ្នកផ្ទាល់នឹងវិនិយោគ ឬគាំទ្រ ជំនោរនាច ទេ? <span class="req">*</span></span>
       <div class="opts" id="q10b">
         <div class="opt" onclick="radio(&#39;q10b&#39;,this,&#39;នឹងវិនិយោគ&#39;)"><input type="radio" name="q10b"><label>នឹងវិនិយោគ</label></div>
-        <div class="opt" onclick="radio(&#39;q10b&#39;,this,&#39;គាំទ្រ ប៉ុន្តែមិនមានហិរញ្ញវត្ថុគ្រប់គ្រាន់ក្នុងការទិញឧបករណ៍&#39;)"><input type="radio" name="q10b"><label>គាំទ្រ ប៉ុន្តែមិនមានហិរញ្ញវត្ថុគ្រប់គ្រាន់ក្នុងការទិញឧបករណ៍</label></div>
+        <div class="opt" onclick="radio(&#39;q10b&#39;,this,&#39;គាំទ្រប៉ុន្តែមិនមានហិរញ្ញវត្ថុគ្រប់គ្រាន់ក្នុងការទិញឧបករណ៍&#39;)"><input type="radio" name="q10b"><label>គាំទ្រប៉ុន្តែមិនមានហិរញ្ញវត្ថុគ្រប់គ្រាន់ក្នុងការទិញឧបករណ៍</label></div>
         <div class="opt" onclick="radio(&#39;q10b&#39;,this,&#39;ត្រូវការព័ត៌មានបន្ថែម&#39;)"><input type="radio" name="q10b"><label>ត្រូវការព័ត៌មានបន្ថែម</label></div>
         <div class="opt" onclick="radio(&#39;q10b&#39;,this,&#39;នឹងមិនវិនិយោគ&#39;)"><input type="radio" name="q10b"><label>នឹងមិនវិនិយោគ</label></div>
       </div>
@@ -471,7 +517,7 @@ function next(from){
     let ok=true;
     if(branch==='yes'){
       if(!anychk('q6a')){em('q6a',true);ok=false;}else em('q6a',false);
-      if(!sel('q7a')){em('q7a',true);ok=false;}else em('q7a',false);
+      if(!anychk('q7a')){em('q7a',true);ok=false;}else em('q7a',false);
       if(!sel('q8a')){em('q8a',true);ok=false;}else em('q8a',false);
       if(!scv('q9a')){em('q9a',true);ok=false;}else em('q9a',false);
       if(!scv('q10a')){em('q10a',true);ok=false;}else em('q10a',false);
@@ -521,7 +567,7 @@ function submit(){
     agri:      branch,
     // page 2
     q6:  branch==='yes'?gc('q6a')               :(sel('q6b')?.dataset.v||''),
-    q7:  branch==='yes'?(sel('q7a')?.dataset.v||''):(scv('q7b')||''),
+    q7:  branch==='yes'?gc('q7a'):(scv('q7b')||''),
     q8:  branch==='yes'?(sel('q8a')?.dataset.v||''):(sel('q8b')?.dataset.v||''),
     q9:  branch==='yes'?(scv('q9a')||'')         :(sel('q9b')?.dataset.v||''),
     q10: branch==='yes'?(scv('q10a')||'')        :(sel('q10b')?.dataset.v||''),
